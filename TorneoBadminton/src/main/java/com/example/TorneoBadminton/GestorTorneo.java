@@ -31,7 +31,7 @@ public class GestorTorneo {
         model.addAttribute("torneo", torneo);
         return "mostrarTorneo";
     }
-    @GetMapping("/{num}/equipos")
+    @GetMapping("torneo/{num}/equipos")
     public String mostrarEquipos(Model model, @PathVariable int num){
         Torneo torneo = torneos.get(num-1);
         torneo.addEquipo("p");
