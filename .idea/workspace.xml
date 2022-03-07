@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f66139d5-a831-4305-bcd3-2fb651f69a9b" name="Changes" comment="" />
+    <list default="true" id="f66139d5-a831-4305-bcd3-2fb651f69a9b" name="Changes" comment="Clases creadas y plantillas básicas. No funciona mostrar el tablón actualizado">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TorneoBadminton/src/main/java/com/example/TorneoBadminton/GestorTorneo.java" beforeDir="false" afterPath="$PROJECT_DIR$/TorneoBadminton/src/main/java/com/example/TorneoBadminton/GestorTorneo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TorneoBadminton/src/main/java/com/example/TorneoBadminton/Torneo.java" beforeDir="false" afterPath="$PROJECT_DIR$/TorneoBadminton/src/main/java/com/example/TorneoBadminton/Torneo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TorneoBadminton/src/main/resources/static/crearTorneo.html" beforeDir="false" afterPath="$PROJECT_DIR$/TorneoBadminton/src/main/resources/static/crearTorneo.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TorneoBadminton" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -34,6 +39,30 @@
       <option name="presentableId" value="Default" />
       <updated>1646640792596</updated>
     </task>
+    <task id="LOCAL-00001" summary="Clases creadas y plantillas básicas. No funciona mostrar el tablón actualizado">
+      <created>1646641199577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646641199577</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Clases creadas y plantillas básicas. No funciona mostrar el tablón actualizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clases creadas y plantillas básicas. No funciona mostrar el tablón actualizado" />
   </component>
 </project>

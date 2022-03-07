@@ -4,6 +4,7 @@ package com.example.TorneoBadminton;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.ArrayList;
@@ -14,13 +15,13 @@ public class GestorTorneo {
     public  GestorTorneo(){torneos=new ArrayList<>();}
     @GetMapping("/")
     public String inicio(Model model){
-        model.addAttribute("torneo", torneos);
+        model.addAttribute("torneos", torneos);
         return "inicio";
     }
-    @GetMapping("/torneoNuevo")
-    public String addTorneo(Model model, @RequestParam Torneo a){
+    @PostMapping("/creado")
+    public String addTorneo(Model model, Torneo a){
         torneos.add(a);
-        return "inicio";
+        return "TorneoCreado";
     }
 
 

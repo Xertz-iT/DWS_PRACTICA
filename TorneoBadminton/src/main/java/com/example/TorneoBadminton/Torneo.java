@@ -18,6 +18,10 @@ public class Torneo {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public ArrayList<?> getListaPartidos() {
         return listaPartidos;
     }
