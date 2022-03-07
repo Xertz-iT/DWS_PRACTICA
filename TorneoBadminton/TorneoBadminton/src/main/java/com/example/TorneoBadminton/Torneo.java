@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class Torneo {
     private String name;
-    private ArrayList<Match> listaPartidos;
+    private ArrayList<String> listaPartidos;
     private Map<Equipo, Integer> listaEquipo;
     private String ganador;
     private int id;
@@ -29,7 +29,7 @@ public class Torneo {
         this.name = name;
     }
     public void addEquipo(Equipo a){listaEquipo.put(a, 0);}
-    public ArrayList<Match> getListaPartidos() {
+    public ArrayList<String> getListaPartidos() {
         return listaPartidos;
     }
 

@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.servlet.http.Part;
 import java.util.*;
 
 @Controller
@@ -38,17 +37,9 @@ public class GestorTorneo {
         Map<Equipo, Integer> mapa = torneo.getListaEquipo();
         Set<Equipo> equipos = mapa.keySet();
         List<Equipo> lista = equipos.stream().toList();
+        lista.add(new Equipo("a", "b", "c", "d"));
         model.addAttribute("torneo", torneo);
         model.addAttribute("equipos", lista);
         return "mostrarEquipos";
-    }
-    @GetMapping("torneo/{num}/partidos")
-    public String mostrarPartidos(Model model, @PathVariable int num){
-        Torneo torneo = torneos.get(num-1);
-        ArrayList<Match> lista = torneo.getListaPartidos();
-        model.addAttribute("torneo", torneo);
-        model.addAttribute("partidos", lista);
-        return "mostrarPartidos";
-
     }
 }
