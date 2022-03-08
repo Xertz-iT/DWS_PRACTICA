@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.*;
 
 @Controller
-public class GestorTorneo {
+public class TorneoController {
     ArrayList<Torneo> torneos;
-    public  GestorTorneo(){torneos=new ArrayList<>();}
+    public TorneoController(){torneos=new ArrayList<>();}
     @GetMapping("/")
     public String inicio(Model model){
         model.addAttribute("torneos", torneos);

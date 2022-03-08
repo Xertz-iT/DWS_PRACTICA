@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f66139d5-a831-4305-bcd3-2fb651f69a9b" name="Changes" comment="Clases creadas y plantillas básicas. No funciona mostrar el tablón actualizado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TorneoBadminton/src/main/java/com/example/TorneoBadminton/GestorTorneo.java" beforeDir="false" afterPath="$PROJECT_DIR$/TorneoBadminton/src/main/java/com/example/TorneoBadminton/GestorTorneo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TorneoBadminton/src/main/java/com/example/TorneoBadminton/Torneo.java" beforeDir="false" afterPath="$PROJECT_DIR$/TorneoBadminton/src/main/java/com/example/TorneoBadminton/Torneo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TorneoBadminton/src/main/resources/static/crearTorneo.html" beforeDir="false" afterPath="$PROJECT_DIR$/TorneoBadminton/src/main/resources/static/crearTorneo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/TorneoBadminton" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
