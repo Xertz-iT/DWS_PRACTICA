@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{torneo.name}}: PARTIDOS</title>
+</head>
+<body>
+{{#partidos}}
+<p>{{.}}</p><a href="{{-index}}/ganador">Declarar Resultado</a>
+{{/partidos}}
+
+
+<a href="addPartido.html"> Añadir partido </a>
+
+</body>
+</html>
